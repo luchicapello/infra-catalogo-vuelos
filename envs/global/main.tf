@@ -13,3 +13,14 @@ output "project_id" {
 output "service_id" {
   value = module.core.service_id
 }
+
+module "vercel_core" {
+  source = "../../modules/vercel-core"
+
+  project_name = "copia-catalogo-vuelos-front"
+
+  framework = "vite"
+
+  git_repo = "capelloprueba/CopiaCatalogoVuelos"
+}
+
