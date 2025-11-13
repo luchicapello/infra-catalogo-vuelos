@@ -9,3 +9,8 @@ variable "env_vars" {
   description = "Variables de entorno específicas del ambiente MAIN"
   default     = {}
 }
+
+variable "vercel_project_id" {
+  description = "ID del proyecto Vercel para el frontend"
+  type        = string
+}

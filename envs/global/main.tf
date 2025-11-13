@@ -24,3 +24,8 @@ module "vercel_core" {
   git_repo = "capelloprueba/CopiaCatalogoVuelos"
 }
 
+output "vercel_project_id" {
+  value = module.vercel_core.project_id
+}
+
+
