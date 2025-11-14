@@ -1,5 +1,5 @@
 provider "railway" {
-  token = "3429fc47-0c72-449b-893e-b4e04131defc"
+  token = "8bf2a299-03d3-4b08-b5f0-28b07b907ec5"
 }
 
 provider "vercel" {

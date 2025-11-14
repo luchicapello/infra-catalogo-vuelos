@@ -1,3 +1,3 @@
 provider "railway" {
-  token = "b1e18c60-a86c-4758-b6a6-4b48f937a46a"
+  token = "38bf2a299-03d3-4b08-b5f0-28b07b907ec5"
 }

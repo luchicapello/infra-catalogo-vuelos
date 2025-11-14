@@ -1,8 +1,8 @@
 module "railway_env" {
   source = "../../modules/railway-service"
 
-  project_id = "82e1c0c8-3601-4c1e-ac07-408d77fbc01e"
-  service_id = "b8f493f8-7097-45ce-802b-25466b4bff69"
+  project_id = "a8c1fcef-13ab-4a40-af03-d7f9fa00c2d5"
+  service_id = "c144efb2-c160-4f5a-b320-553b5d234602"
 
   environment_name = "main"
 
@@ -13,7 +13,7 @@ module "railway_env" {
 module "vercel_main_env" {
   source = "../../modules/vercel-app"
 
-  project_id = "prj_7EnF8XLlW3D9wPPF4JhcYN3iYDHq"
+  project_id = "prj_Bk0y1c4RQYcbSVSXcaHAi0FC74P7"
 
   env_vars_common = {}
   env_vars        = {}
