@@ -1,4 +1,4 @@
-# Variables para todos los ambientes
+# Variables comunes
 env_vars_common = {
   JAVA_OPTS = "-Xms256m -Xmx512m"
 }
@@ -8,7 +8,7 @@ env_vars = {
   SPRING_PROFILES_ACTIVE = "prod"
   DB_URL                 = "jdbc:postgresql://blgyj5rujfp4pkxoxa2nh-postgresql.services.clever-cloud.com:50013/blgyj5rujfp4pkxoxa2nh?sslmode=require"
   DB_USERNAME            = "u1x4y3mgf15lw8sk1gsx"
-  DB_PASSWORD            = "nFUXZnE75vV3PY3lW6kHNJA1w5nD5"
+  DB_PASSWORD            = "nfUZxEm75yVPv3Y1GLw6KhJnAW5ndB"
   APP_KEY                = "dapps2-2025"
   EVENTS_MODE            = "direct"
 }

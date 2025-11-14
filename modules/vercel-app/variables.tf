@@ -4,6 +4,12 @@ variable "project_id" {
   type        = string
 }
 
+# Nombre del environment lógico (main, preprod, etc.)
+variable "environment_name" {
+  description = "Nombre del environment (main, preprod, etc.)"
+  type        = string
+}
+
 # Targets donde se aplican estas variables.
 # production  = deploy de la rama principal
 # preview     = ramas secundarias / PRs
