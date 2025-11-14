@@ -17,11 +17,11 @@ output "service_id" {
 module "vercel_core" {
   source = "../../modules/vercel-core"
 
-  project_name = "copia-catalogo-vuelos-front"
+  project_name = "catalogo-vuelos"
 
   framework = "vite"
 
-  git_repo = "capelloprueba/CopiaCatalogoVuelos"
+  git_repo = "luchicapello/CatalogoVuelos"
 }
 
 output "vercel_project_id" {

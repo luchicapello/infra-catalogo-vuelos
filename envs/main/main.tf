@@ -1,8 +1,8 @@
 module "railway_env" {
   source = "../../modules/railway-service"
 
-  project_id = "a8c1fcef-13ab-4a40-af03-d7f9fa00c2d5"
-  service_id = "c144efb2-c160-4f5a-b320-553b5d234602"
+  project_id = "f3b5033b-40ea-479e-8309-0998f99caceb"
+  service_id = "f0b212be-e620-439f-9e9e-3fe261b1a2e6"
 
   environment_name = "main"
 
